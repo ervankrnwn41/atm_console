@@ -1,7 +1,7 @@
 from atm_card import ATMCard
 
 class Customer:
-	def __init__(self, id, custPin=1234, custBalance=10000):
+	def __init__(self, id, custPin=1234, custBalance=100000):
 		self.id = id
 		self.custPin = custPin
 		self.custBalance = custBalance
